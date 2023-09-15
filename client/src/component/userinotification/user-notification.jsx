@@ -67,9 +67,9 @@ async function notifyUser(notificationText = "thank you for enable this notifica
   ) : (Notification.permission === "granted") ? (
     <ChakraProvider theme={theme}>
         <Button colorScheme='gray' size='sm'  className='btn1' onClick={() =>{ notifyUser("you have successfully Login to this page,thank you"  );
-           window.location.href = "https://www.youtube.com";
+           window.location.href = "https://github.com/hajeerafatima/stack-overflow-clone.git";
        }}>
-  	   Click Here to see you have Logged in or not 
+  If You Want to Check the Source code of this hole Website then Click Here
         </Button>
   </ChakraProvider>
   ) :
