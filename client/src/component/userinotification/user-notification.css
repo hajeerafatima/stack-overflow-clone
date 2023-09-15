@@ -1,0 +1,43 @@
+/* .main-class-name {
+    width: 900px;
+    height: 600px;
+    margin: 0 auto; 
+} */
+ 
+ .btn1 {
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
+   float: right;
+} 
+
+
+@media (max-width: 1200px) {
+    .main-class-name {
+        width: 80%; 
+        margin: 0 auto; 
+    }
+
+    .btn1 {
+        width: 50%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main-class-name {
+        width: 90%; 
+        margin: 0 auto; 
+        height: auto; 
+        padding: 20px;
+    }
+
+    .btn1 {
+        width: 100%;
+        margin-left: 0; 
+        padding: 15px; 
+    }
+}
