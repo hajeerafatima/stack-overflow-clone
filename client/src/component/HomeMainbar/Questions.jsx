@@ -7,8 +7,8 @@ const Questions = ({question}) => {
   return (
     <div className='display-question-container'> 
     <div className='diaply-votes-ans'>
-        <p>{question?.upVotes?.length - question?.downVotes?.length}</p>
-          <p>votes</p>
+        <p>{question.upVote.length - question.downVote.length}</p>
+        <p>votes</p>
      </div>  
       <div className='diaply-votes-ans'>
         <p>{question.noOfAnswers}</p>
