@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+     "build": "netlify deploy --prod"
   },
   "author": "hajeera fatima",
   "license": "ISC",
@@ -17,6 +18,9 @@
     "jsonwebtoken": "^9.0.1",
     "mongodb": "^5.7.0",
     "mongoose": "^7.4.0",
-    "nodemon": "^3.0.1"
+    "netlify-cli": "^16.3.3",
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^3.0.1",
+     "serverless-http": "^3.2.0"
   }
 }
